@@ -97,7 +97,20 @@ The landing page is highly customizable:
 
 ## Deployment
 
-The project is ready for deployment on Vercel, Netlify, or any other hosting platform that supports Next.js.
+### GitHub Pages
+
+This project is configured for automatic deployment to GitHub Pages:
+
+1. **Push to GitHub**: Push your code to a GitHub repository
+2. **Enable GitHub Pages**: Go to your repository Settings → Pages
+3. **Select Source**: Choose "GitHub Actions" as the source
+4. **Automatic Deployment**: The site will be automatically built and deployed on every push to the main branch
+
+The site will be available at: `https://[your-username].github.io/[repository-name]/`
+
+### Other Platforms
+
+The project is also ready for deployment on Vercel, Netlify, or any other hosting platform that supports Next.js.
 
 ## License
 
